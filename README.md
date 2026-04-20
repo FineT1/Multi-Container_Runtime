@@ -210,49 +210,54 @@ dmesg | tail -10
 ---
 
 ### Screenshot 2: Metadata Tracking
-![Screenshot 2](screenshots/2.png)
+<img width="805" height="252" alt="Phase1_Metadata_tracking" src="https://github.com/user-attachments/assets/98782414-d6af-4142-83d1-56b11327d833" />
 
-*Output of `engine ps` showing container metadata — PID, state, memory limits.*
+
+*Output of `engine ps` showing container metadata — PID, state.*
 
 ---
 
 ### Screenshot 3: Bounded-Buffer Logging
-![Screenshot 3](screenshots/3.png)
+<img width="811" height="440" alt="phase1_logging_file" src="https://github.com/user-attachments/assets/46203c81-951d-4fd3-940d-ede927a2b2b9" />
+
 
 *Log file contents captured through the producer-consumer logging pipeline.*
 
 ---
 
 ### Screenshot 4: CLI and IPC
-![Screenshot 4](screenshots/4.png)
+
 
 *CLI command being issued and supervisor responding via UNIX domain socket.*
 
 ---
 
 ### Screenshot 5: Soft-Limit Warning
-![Screenshot 5](screenshots/5.png)
+<img width="1063" height="321" alt="Phase1_soft_limit" src="https://github.com/user-attachments/assets/ffe13857-ff96-48dc-bcb3-2eb7a32c1867" />
 
 *`dmesg` output showing kernel warning when container exceeds soft memory limit.*
 
 ---
 
 ### Screenshot 6: Hard-Limit Enforcement
-![Screenshot 6](screenshots/6.png)
+<img width="1516" height="288" alt="phase1_hard_limit" src="https://github.com/user-attachments/assets/d5be98c6-4e9f-4df2-806a-b00103d58a12" />
+
 
 *`dmesg` output showing container killed after exceeding hard memory limit. `engine ps` shows state as `killed`.*
 
 ---
 
 ### Screenshot 7: Scheduling Experiment
-![Screenshot 7](screenshots/7.png)
+<img width="860" height="450" alt="phase1_sdcheduling_ss" src="https://github.com/user-attachments/assets/ae2755e2-3649-49f5-8e5c-75332aa0e7fb" />
+
 
 *`top` showing CPU-bound workload at ~99% CPU and I/O-bound workload at <5% CPU running simultaneously.*
 
 ---
 
 ### Screenshot 8: Clean Teardown
-![Screenshot 8](screenshots/8.png)
+<img width="1211" height="271" alt="phase_zombies_killed" src="https://github.com/user-attachments/assets/794c9a44-0776-44f8-a3ca-90992840fa65" />
+
 
 *`ps aux` showing no zombies, supervisor exit, and kernel module unloaded cleanly.*
 
