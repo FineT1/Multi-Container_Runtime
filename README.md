@@ -226,6 +226,10 @@ dmesg | tail -10
 ---
 
 ### Screenshot 4: CLI and IPC
+<img width="940" height="652" alt="image" src="https://github.com/user-attachments/assets/b331f1de-ca4a-4a3d-802f-2f4cc1d166a2" />
+
+after geting log file off the scoket and closing the container
+<img width="675" height="519" alt="image" src="https://github.com/user-attachments/assets/37e6ea32-2805-442f-b248-2fb1a80b9515" />
 
 
 *CLI command being issued and supervisor responding via UNIX domain socket.*
@@ -345,7 +349,7 @@ The `--nice` flag in our CLI maps directly to Linux `nice` values, which adjust 
 
 ---
 
-## ⚖️ 5. Design Decisions and Tradeoffs
+##  5. Design Decisions and Tradeoffs
 
 | Subsystem | Design Choice | Tradeoff | Justification |
 |-----------|--------------|----------|---------------|
@@ -357,7 +361,7 @@ The `--nice` flag in our CLI maps directly to Linux `nice` values, which adjust 
 
 ---
 
-## 📊 6. Scheduler Experiment Results
+##  6. Scheduler Experiment Results
 
 Both containers were launched simultaneously under the same supervisor with default scheduling priority (nice = 0).
 
@@ -371,7 +375,7 @@ The CPU-bound workload completed ~75× faster than the I/O-bound one, not becaus
 
 ---
 
-## 🎯 7. Conclusion
+##  7. Conclusion
 
 This project successfully demonstrates core operating system concepts through a working implementation:
 
