@@ -1,0 +1,25 @@
+# Build files
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.cmd
+Module.symvers
+modules.order
+
+# Binaries
+cpu_hog
+engine
+io_pulse
+memory_hog
+monitor
+workload_*
+
+# Rootfs and archives
+rootfs-*/
+*.tar.gz*
+
+# Logs
+logs/
+
