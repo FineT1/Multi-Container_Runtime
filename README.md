@@ -1,5 +1,3 @@
-# Multi-Container_Runtime
-
 #  Multi-Container Runtime Project
 
 ---
