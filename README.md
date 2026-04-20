@@ -202,7 +202,8 @@ dmesg | tail -10
 ## 📸 3. Demo Screenshots
 
 ### Screenshot 1: Multi-Container Supervision
-![Screenshot 1](screenshots/1.png)
+<img width="806" height="567" alt="Phase1_multicontainer_screenshot" src="https://github.com/user-attachments/assets/8f90c110-7117-441d-8488-79bde1e65178" />
+
 
 *Two containers running simultaneously under one supervisor process.*
 
